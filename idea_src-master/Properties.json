@@ -1,0 +1,17 @@
+{
+	"PositiveGist":"root/ideaswire/v2/testing_aws/DataBase-master/Positive/Gist/",
+	"PositiveHog":"root/ideaswire/v2/testing_aws/ataBase-master/Positive/Hog/",
+	"NegativeHog":"root/ideaswire/v2/testing_aws/DataBase-master/Negative/Hog/",
+	"NegativeGist":"root/ideaswire/v2/testing_aws/DataBase-master/Negative/Gist/",
+	"RetrainNegativeGist":"root/ideaswire/v2/testing_aws/DataBase-master/NegativeSelection/Gist/",
+	"RetrainNegativeHog":"root/ideaswire/v2/testing_aws/DataBase-master/NegativeSelection/Hog/",
+	"Classifier":"root/ideaswire/v2/testing_aws/DataBase-master/Classifier/",
+	"ClassifierHog":"root/ideaswire/v2/testing_aws/DataBase-master/Classifier/Hog/",
+	"ClassifierGist":"root/ideaswire/v2/testing_aws/DataBase-master/Classifier/Gist/",
+	"Train":"root/ideaswire/v2/v2/testing_aws/DataBase-master/NegativeSelection/",
+	"train_tr":"root/ideaswire/v2/testing_aws/DataBase-master/Positive/",
+	"train_fl":"root/ideaswire/v2/testing_aws/DataBase-master/Negative/",
+	"ImageCsv":"root/ideaswire/v2/testing_aws/DataBase-master/image_name.csv",
+	"MongoUrl":"mongodb://localhost:27017/",
+	"ImageDatabase":"ImageDatabase"
+}

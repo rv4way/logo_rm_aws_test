@@ -1,0 +1,23 @@
+[2016-07-14 17:41:35,473: WARNING/MainProcess] c:\users\vaibhav gusain\appdata\local\enthought\canopy\user\lib\site-packages\celery\apps\worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2016-07-14 17:41:37,119: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2016-07-14 17:41:38,161: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-14 17:41:41,213: INFO/MainProcess] mingle: all alone
+[2016-07-14 17:41:46,631: WARNING/MainProcess] celery@LAPTOP-T7OJVT7J ready.
